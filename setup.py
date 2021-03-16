@@ -16,7 +16,6 @@ for filename in os.listdir(path):
     doc = eT.parse(fullname)
     nodes = doc.findall('.//tests')
     test = list()
-    print(filename)
     for node in nodes:
         for elem in node.findall("*"):
             try:
@@ -29,7 +28,6 @@ for filename in os.listdir(path):
         for index, value in s1.items():
             df = pd.DataFrame.from_dict(value, orient='index')
             df = df.transpose()
-            df_ = df.append(df_, ignore_index=True)
             if n == 0:
                 # df = df.append(products, ignore_index=True)
                 df_ = df.append(df_, ignore_index=True)
