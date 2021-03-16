@@ -1,0 +1,65 @@
+;name;result;value;expectedvalue;status;lowerlimit;upperlimit;lowerwarning;upperWarning;units;runtime;cycles;timestamp;details
+0;Cojin 813181-10 - desactivar sensor;pass;NaV;-;skipped;470;560;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Cojin 813181-10 - activar sensor;pass;NaV;-;skipped;0;2;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;hebilla normalmente cerrada - Belt Buckle pulled;pass;0,2424;-;executed;0,0000;2,0000;-;-;Ohm;0,000000;0;10.11.2020 11:47:11;Test ID: Belt Buckle pulled - Result: pass - Indication:  - Range: ok - Break: no
+0;hebilla normalmente cerrada - Belt Buckle inserted;pass;NaN;-;executed;0,0000;2,0000;-;-;Ohm;10,062575;0;10.11.2020 11:47:11;Test ID: Belt Buckle inserted - Result: pass - Indication:  - Range: exceeded - Break: no
+0;Dlg Remove test cable - Remove test cable;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Posición de embalado - Delivery Position;pass;NaV;-;skipped;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Posición de embalado - Delivery Position;pass;OK;-;executed;OK;OK;-;-;string;19,834135;0;10.11.2020 11:46:51;Delivery Position - pass
+0;Dlg Añadir Kits y tapa de cartón - Beipack;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Cinturón - Safety Belt Function;pass;OK;-;executed;OK;OK;-;-;string;40,458314;0;10.11.2020 11:46:10;Safety Belt Function - pass
+0;hebilla normalmente abierta - Belt Buckle pulled;pass;NaV;-;skipped;0;2;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;hebilla normalmente abierta - Belt Buckle inserted;pass;NaV;-;skipped;0;2;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Revisión estética espumas - Backrest fitting;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Seat Check - Seat Delivery Check;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Backrest Check - Backrest Delivery Check;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Covers - Backrest And Seat Cover Installation;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Armrest - Armrest Presence and Function;pass;OK;-;executed;OK;OK;-;-;string;12,873736;0;10.11.2020 11:45:57;Armrest Presence and Function - pass
+0;Dlg Giratorio - Trimmer Function;pass;NaV;-;skipped;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Reclinación Hombros - Shoulder Adjustment Function;pass;NaV;-;skipped;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Reclinación respaldo - Backrest Tilt Adjustment Function;pass;OK;-;executed;OK;OK;-;-;string;5,139294;0;10.11.2020 11:45:52;Backrest Tilt Adjustment Function - pass
+0;Dlg Inclinación asiento - Seat Tilt Function;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Desplazamiento cojín - SKTE Function;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Dlg Desplazamiento vías - Longitudinal Setting Function;pass;NaV;-;disabled;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Comprobacion doble estribo - Seat Contact Switch unloaded;pass;NaV;-;skipped;;;-;-;;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Comprobacion doble estribo - Seat Contact Switch loaded;pass;NaV;-;skipped;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;A Seat contact swicht (intern) - Cushion push;pass;NaV;-;skipped;2,5;3,5;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Seat Contact Switch - Pos 1;pass;NaV;-;skipped;2,5;4;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Seat Contact switch - Seat Contact Switch unloaded;pass;NaV;-;skipped;4;99999;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Seat Contact switch - Seat Contact Switch loaded;pass;NaV;-;skipped;0;4;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;// Standby Current - Standby Current;pass;NaV;-;disabled;0,01;0,05;-;-;A;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Sensor presencia SBE - Sensor deactiavated;pass;NaV;-;skipped;2150;2350;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Sensor presencia SBE - Sensor activated;pass;NaV;-;skipped;125;650;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Hebilla sensor - Fans Installation;pass;OK;-;executed;OK;OK;-;-;string;21,923254;0;10.11.2020 11:45:29;Fans Installation - pass
+0;Fans Level 3 - Fans Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Fans Level 3 - Fans Level 3;pass;NaV;-;skipped;2;3;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Fans Level 2 - Fans Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Fans Level 2 - Fans Level 2;pass;NaV;-;skipped;2;3;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Fans Level 1 - Fans Off;pass;NaV;-;skipped;0;0,1;-;-;;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Fans Level 1 - Fans Level 1;pass;NaV;-;skipped;2;3;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Microphone - Microphone;pass;NaV;-;disabled;1,7;3,0;-;-;Ohm;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Vibration Motor Right - Vibration Motor Right;pass;NaV;-;disabled;0,01;0,3;-;-;A;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Vibration Motor Left - Vibration Motor Left;pass;NaV;-;disabled;0,01;0,3;-;-;A;0,000000;0;01.01.1904 01:00:00;Step is disabled
+0;Heating 3 - Heating Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1,2 
+0;Heating 3 - Heating Level 3;pass;NaV;-;skipped;2;3;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1,2 
+0;Heating 2 - Heating Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1,2 
+0;Heating 2 - Heating Level 2;pass;NaV;-;skipped;2;3;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1,2 
+0;Heating 1 - Heating Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Heating 1 - Heating Level 1;pass;NaV;-;skipped;1,75;5;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg función suspensión horizontal - Horizontal suspension;pass;OK;-;executed;OK;OK;-;-;string;21,257215;0;10.11.2020 11:45:07;Horizontal suspension - pass
+0;// Compresor pequeño IPS 24V - Compressor Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;// Compresor pequeño IPS 24V - Compressor On;pass;NaV;-;skipped;0,2;0,3;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg IPS y LWS - IPS Function;pass;OK;-;executed;OK;OK;-;-;string;19,437112;0;10.11.2020 11:44:48;IPS Function - pass
+0;Dlg Descenso rápido - Lowering and Travel Height Function;pass;OK;-;executed;OK;OK;-;-;string;16,287931;0;10.11.2020 11:44:32;Lowering and Travel Height Function - pass
+0;// IPS 24V - Compressor Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 2 
+0;// IPS 24V - Compressor On;pass;NaV;-;skipped;2;5;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 2 
+0;// IPS 12V - Compressor Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;// IPS 12V - Compressor On;pass;NaV;-;skipped;4;8;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;// Compressor 12V - Compressor Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 2 
+0;// Compressor 12V - Compressor On;pass;NaV;-;skipped;4;8;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 2 
+0;// Compressor 24V - Compressor Off;pass;NaV;-;skipped;0;0,1;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;// Compressor 24V - Compressor On;pass;NaV;-;skipped;2,5;5,0;-;-;A;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Dlg Regulación de altura y de dureza - Pneumatic Functions;pass;OK;-;executed;OK;OK;-;-;string;53,488059;0;10.11.2020 11:43:38;Pneumatic Functions - pass
+0;Dlg Montar cojín y comprobar palanca - SKTE Mounting;pass;NaV;-;skipped;OK;-;-;-;string;0,000000;0;01.01.1904 01:00:00;Test is skipped because the following execution key(s) is(are) not true: 1 
+0;Operator ID - Operator ID;pass;2346;-;executed;-;-;-;-;-;0,000000;0;10.11.2020 11:43:34;no details
+0;Option code - Option code,Testmaske;pass;X000011520328######813377-01/01001152032800001010985520020097530000001800370100000010001010103600100000002000000040200000012020001020000000000002000000000201101604;-;executed;-;-;-;-;-;0,000000;0;10.11.2020 11:43:28;no details
