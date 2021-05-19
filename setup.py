@@ -1,42 +1,34 @@
-import xml.etree.cElementTree as eT
-import os
 import pandas as pd
-import traceback
+import json
+from classes.conexion import Conexion
+from classes.ParseXml import Parse
+
+
+# DEFINIR EL ENTORNO PARA QUE COJA LOS VALORES QUE SE ENCUENTRAN EN EL config.json
+
+ENTORNO = "produccion"
+
+# Obtener las variables de acceso
+
+with open('config.json', 'r') as file:
+    config = json.load(file)
+
+con = Conexion(server=config[ENTORNO]['server']
+               , database=config[ENTORNO]['database']
+               , username=config[ENTORNO]['username']
+               , password=config[ENTORNO]['password'])
 n = 0
-ResultSet_Py_List = []
 path = './xml'
+# inicializar variables
+ResultSet_Py_List = []
 df_ = pd.DataFrame(
     columns=['name', 'result', 'value', 'expectedvalue', 'status', 'lowerlimit', 'upperlimit', 'lowerwarning',
              'upperWarning', 'units', 'runtime', 'cycles', 'timestamp', 'details'])
-for filename in os.listdir(path):
-#TODO len listdir(path)  compare each 5 min
-    if not filename.endswith('.xml'):
-        continue
-    fullname = os.path.join(path, filename)
-    doc = eT.parse(fullname)
-    nodes = doc.findall('.//tests')
-    test = list()
-    for node in nodes:
-        for elem in node.findall("*"):
-            try:
-                if elem.tag == "test":
-                    test.append(elem.attrib)
-            except AttributeError:
-                traceback.print_exc()
-        s1 = pd.Series(test)
+while True:
+    df_=Parse().ParseXml(path, n, df_)
+    con.subirdatos(df_)
 
-        for index, value in s1.items():
-            df = pd.DataFrame.from_dict(value, orient='index')
-            df = df.transpose()
-            if n == 0:
-                # df = df.append(products, ignore_index=True)
-                df_ = df.append(df_, ignore_index=True)
-                df_['Index'] = str(filename)
-            else:
-                # df = df.append(products, ignore_index=True)
-                df_ = df.append(df_, ignore_index=True)
-                df_['Index'] = df_['Index'].fillna(str(filename))
-            n += 1
-            df_ = df.append(df_)
-        df = pd.DataFrame({"data": s1})
-        df_.to_csv('raba.csv', sep=';')
+    # todo TO SQL
+
+    # registros = os.listdir(path)
+# print(len(registros))
