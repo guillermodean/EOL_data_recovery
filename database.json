@@ -1,0 +1,24 @@
+{
+    "PRODUCCION": {
+                    "usuario": "root"
+                    , "psw":"Guillermo11"
+                    , "host":"localhost"
+                    , "DDBB":"eol_xmldata"
+                    , "ruta_XML": "C:/Users/guill/Documents/13-Proyectos/EOL_data_recovery/xml"
+                }
+
+    , "DESARROLLO": {
+                    "usuario": "root"
+                    , "psw":"Guillermo11"
+                    , "host":"localhost"
+                    , "DDBB":"eol_xmldata"
+                    , "ruta_XML": "C:/Users/guill/Documents/13-Proyectos/EOL_data_recovery/xml"
+                }
+    , "LOCAL": {
+                    "usuario": "root"
+                    , "psw":"Guillermo11"
+                    , "host":"localhost"
+                    , "DDBB":"eol_xmldata"
+                    , "ruta_XML": "C:/Users/guill/Documents/13-Proyectos/EOL_data_recovery/xml"
+                }
+}

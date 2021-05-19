@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<job order="" optioncode="" jobtype="LH" overallresult="pass" project="Iveco" pcode="004_026_039"></job>
+<tester name="Goepel EOL1" id="EOL" lane="EOL" version="OsCAR Interface V01R05 2019-24-04" location="Valladolid, Spain"></tester>
+<tests operator="ID000011" performed="2021-03-11 22:37:03" cycletime="107" faultcode="-" faultmessage="-">
+<test name="Option code - Modelo" result="pass" value="5802802626" expectedvalue="-" status="active" lowerlimit="-" upperlimit="-" units="-" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details="-"></test>
+<test name="Barcode VAN" result="pass" value="11870947" expectedvalue="-" status="active" lowerlimit="7" upperlimit="8" units="-" runtime="9,666594" cycles="0" timestamp="11.03.2021 22:35:28" details=""></test>
+<test name="Barcode Serial" result="pass" value="822100011607" expectedvalue="-" status="active" lowerlimit="10" upperlimit="12" units="-" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details=""></test>
+<test name="FA" result="pass" value="17" expectedvalue="-" status="active" lowerlimit="17" upperlimit="17" units="-" runtime="4,966200" cycles="0" timestamp="11.03.2021 22:35:33" details=""></test>
+<test name="SeatAdapter" result="pass" value="9" expectedvalue="-" status="active" lowerlimit="9" upperlimit="99" units="-" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details=""></test>
+<test name="SeatFrame" result="pass" value="15" expectedvalue="-" status="active" lowerlimit="15" upperlimit="99" units="-" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details=""></test>
+<test name="query" result="pass" value="796" expectedvalue="-" status="active" lowerlimit="0" upperlimit="400" units="Ohm" runtime="3,445200" cycles="0" timestamp="11.03.2021 22:35:36" details="CORRECTOCORRECTO"></test>
+<test name="Crossover" result="pass" value="PASS" expectedvalue="-" status="active" lowerlimit="-" upperlimit="-" units="-" runtime="4,703364" cycles="0" timestamp="11.03.2021 22:35:41" details=""></test>
+<test name="DPD_Mono_sensor" result="pass" value="1082,6609" expectedvalue="-" status="active" lowerlimit="927,0000" upperlimit="3663,0000" units="Ohm" runtime="44,270236" cycles="0" timestamp="11.03.2021 22:36:25" details="DPD_Mono_sensor  - Result: pass - Indication: ok - Range: ok - Break: no "></test>
+<test name="PPD 2 - SBR bipo" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="900" upperlimit="1200" units="Ohm" runtime="0,168000" cycles="0" timestamp="11.03.2021 22:36:26" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="BeltBuckle_init" result="pass" value="0,1060" expectedvalue="-" status="active" lowerlimit="0,0000" upperlimit="3,0000" units="Ohm" runtime="7,091400" cycles="0" timestamp="11.03.2021 22:36:33" details="BeltBuckle_init  - Result: pass - Indication: ok - Range: ok - Break: no "></test>
+<test name="BeltBuckle_locked" result="pass" value="NaN" expectedvalue="-" status="active" lowerlimit="-10,0000" upperlimit="10,0000" units="Ohm" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details="BeltBuckle_locked  - Result: pass - Indication: ok - Range: exceeded - Break: no "></test>
+<test name="BeltBuckle_unlocked" result="pass" value="0,0930" expectedvalue="-" status="active" lowerlimit="0,0000" upperlimit="3,0000" units="Ohm" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details="BeltBuckle_unlocked  - Result: pass - Indication: ok - Range: ok - Break: no "></test>
+<test name="BeltBuckle2nd_init" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="0" upperlimit="3" units="Ohm" runtime="0,173000" cycles="0" timestamp="11.03.2021 22:36:33" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="BeltBuckle2nd_locked" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="-10" upperlimit="10" units="Ohm" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="BeltBuckle2nd_unlocked" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="0" upperlimit="3" units="Ohm" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="heating_active" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="3,4" upperlimit="4" units="A" runtime="0,203000" cycles="0" timestamp="11.03.2021 22:36:33" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="heating_deactive" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="0" upperlimit="0,2" units="A" runtime="0,000000" cycles="0" timestamp="01.01.1904 01:00:00" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="pretensioner_preloaded" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="1,8" upperlimit="2,4" units="Ohm" runtime="0,111000" cycles="0" timestamp="11.03.2021 22:36:34" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="textile" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="2,650200" cycles="0" timestamp="11.03.2021 22:36:36" details="Test ID (instruction): textile - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="vinyl" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="10" upperlimit="01" units="Funktion" runtime="0,171000" cycles="0" timestamp="11.03.2021 22:36:36" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="headrest" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="10" upperlimit="01" units="Funktion" runtime="0,110000" cycles="0" timestamp="11.03.2021 22:36:37" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="headrest" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="1,543067" cycles="0" timestamp="11.03.2021 22:36:38" details="Test ID (instruction): headrest - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="plastic_cover" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="7,521504" cycles="0" timestamp="11.03.2021 22:36:45" details="Test ID (instruction): plastic_cover - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="plastic_cover" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="10" upperlimit="01" units="Funktion" runtime="0,171028" cycles="0" timestamp="11.03.2021 22:36:46" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="armrest" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="1,955000" cycles="0" timestamp="11.03.2021 22:36:47" details="Test ID (instruction): armrest - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="lws" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="3,738200" cycles="0" timestamp="11.03.2021 22:36:51" details="Test ID (instruction): lws - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="slide" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="1,640075" cycles="0" timestamp="11.03.2021 22:36:53" details="Test ID (instruction): slide - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="backrest" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="1,472125" cycles="0" timestamp="11.03.2021 22:36:54" details="Test ID (instruction): backrest - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="suspens_adjust" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="3,107192" cycles="0" timestamp="11.03.2021 22:36:57" details="Test ID (instruction): suspens_adjust - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="height" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="1,946007" cycles="0" timestamp="11.03.2021 22:36:59" details="Test ID (instruction): height - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="tilt" result="pass" value="10" expectedvalue="-" status="active" lowerlimit="10" upperlimit="10" units="Funktion" runtime="2,130200" cycles="0" timestamp="11.03.2021 22:37:01" details="Test ID (instruction): tilt - Key 1 was pressed. (Text: OK; Value: 10 [bit])"></test>
+<test name="table" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="10" upperlimit="01" units="Funktion" runtime="0,102000" cycles="0" timestamp="11.03.2021 22:37:02" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test>
+<test name="belt_check" result="pass" value="-" expectedvalue="-" status="not active" lowerlimit="10" upperlimit="01" units="Funktion" runtime="0,176000" cycles="0" timestamp="11.03.2021 22:37:02" details="Test is skipped because the following execution key(s) is(are) not true: 1
+ "></test></tests>
+</result>
