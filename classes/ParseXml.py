@@ -9,10 +9,8 @@ class Parse:
         self.conexion = None
         print('Parser creado')
 
-    def ParseXml(self, path, n, df_):
-        for filename in os.listdir(path):
-            # TODO len listdir(path)  compare each 5 min
-
+    def ParseXml(self, path, n, df_, newfiles):
+        for filename in newfiles:
             if not filename.endswith('.xml'):
                 continue
             fullname = os.path.join(path, filename)
@@ -42,7 +40,7 @@ class Parse:
                     n += 1
                     df_ = df.append(df_)
                 df = pd.DataFrame({"data": s1})
-                df_.to_csv('raba.csv', sep=';')
+                #df_.to_csv('raba.csv', sep=';')   Se usa para probar el parseo
                 return df_
 
     def insertRows(self,df_):

@@ -18,7 +18,6 @@ class Conexion:
         try:
             con = sql.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
             engine = sqlalchemy.create_engine("mssql+pyodbc://" + username + ":" + password + "@" + server + "/"+database+"?driver=ODBC+DRIVER+17+for+SQL+Server", pool_pre_ping=True)
-            print(engine,password)
             print("conectado a BBDD")
             self.conn = con
             self.engine = engine
@@ -28,5 +27,5 @@ class Conexion:
 
     def subirdatos(self, df):
         df.to_sql("EOL_BAU", con=self.engine, if_exists='append', index=False)
-        df.to_csv('gramenauer.csv', sep=',')
+        # df.to_csv('gramenauer.csv', sep=',') se usa para comprobar la subida
         print('datos subidos')
