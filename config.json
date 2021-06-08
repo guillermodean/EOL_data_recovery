@@ -1,0 +1,14 @@
+
+{"produccion": {
+  "server": "localhost",
+  "database": "EOL_RESULTS",
+  "username": "ruben",
+  "password": "Windows2018",
+  "path":"\\\\S_b1_17_02_01_1\\004_038_082\\result\\report_xml"
+},"desarrollo": {
+  "server": "localhost",
+  "database": "EOL_RESULTS",
+  "username": "ruben",
+  "password": "Windows2018",
+  "path":"./xml"
+}}

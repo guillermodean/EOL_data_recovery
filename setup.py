@@ -1,13 +1,11 @@
 import pandas as pd
-import json
-from classes.conexion import Conexion
-from classes.ParseXml import Parse
-from classes.Iteration import Iteration
+from Classes.ParseXml import Parse
+from Classes.Iteration import Iteration
 import time
+import json
+from Classes.conexion import Conexion
 
-####### DEFINIR EL ENTORNO PARA QUE COJA LOS VALORES QUE SE ENCUENTRAN EN EL config.json  #######
-
-ENTORNO = "desarrollo" #produccion
+ENTORNO = "produccion" #produccion
 
 
 ####### Obtener las variables de acceso #######
@@ -15,14 +13,8 @@ ENTORNO = "desarrollo" #produccion
 with open('config.json', 'r') as file:
     config = json.load(file)
 
-# con = Conexion(server=config[ENTORNO]['server']
-#                , database=config[ENTORNO]['database']
-#                , username=config[ENTORNO]['username']
-#                , password=config[ENTORNO]['password'])
-
 path = config[ENTORNO]['path']
 
-####### inicializar variables  #######
 
 n = 0
 # path = './xml'
@@ -47,3 +39,4 @@ while True:
                  , password=config[ENTORNO]['password']).subirdatos(df_)
         time.sleep(180)
         print('sleeping uploaded')
+        
